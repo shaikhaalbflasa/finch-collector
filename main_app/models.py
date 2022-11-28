@@ -6,6 +6,7 @@ class Finch(models.Model):
     breed = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
     age = models.IntegerField()
+    imag = models.TextField(max_length=350)
 
     # new code below
     def __str__(self):
